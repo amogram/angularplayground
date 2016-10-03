@@ -1,0 +1,62 @@
+{
+  "name": "Scheduler.SPA",
+  "version": "1.0.0",
+  "description": "Playground for .NET Core",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite --baseDir ./app --port 8000\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amogram/angularplayground"
+  },
+  "author": "Andrew McCaughan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amogram/angularplayground/issues"
+  },
+  "homepage": "https://github.com/amogram/angularplayground",
+  "private": true,
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "@angular/upgrade": "2.0.0",
+    "bootstrap": "^3.3.6",
+ 
+    "jquery": "^3.0.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "ng2-bootstrap": "^1.1.5",
+    "ng2-slim-loading-bar": "1.5.1",
+     
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.27",
+    "zone.js": "^0.6.23",
+    "angular2-in-memory-web-api": "0.0.20"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^5.0.0",
+    "jquery": "^3.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "2.0.2",
+    "typings": "^1.3.2",
+    "tslint": "^3.10.2"
+  }
+}
