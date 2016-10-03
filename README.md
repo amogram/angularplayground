@@ -18,6 +18,7 @@ A playground to try out Angular 2.0, ASP.NET Core and Entity Framework Core. Thi
 The database I'm using for this project is just LocalDB. Feel free to change this to SQL Server if you want.  Connection info is stored in the ``` appsettings.json ``` file of Scheduler.API
 1. Open a command window within Scheduler.Data
 2. Run the following commands:
+
 ```
 dotnet ef migrations add "initial"
 dotnet ef database update
