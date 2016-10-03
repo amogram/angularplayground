@@ -14,7 +14,16 @@ A playground to try out Angular 2.0, ASP.NET Core and Entity Framework Core. Thi
 
 ## Running the code in this project
 
-### Run the API
+### 1. Set up the Database
+The database I'm using for this project is just LocalDB. Feel free to change this to SQL Server if you want.  Connection info is stored in the ``` appsettings.json ``` file of Scheduler.API
+1. Open a command window within Scheduler.Data
+2. Run the following commands:
+```
+dotnet ef migrations add "initial"
+dotnet ef database update
+```
+
+### 2. Run the API
 There are two folders in the project. One folder consists of a Visual Studio Solution file with three projects:
 * Scheduler.Data
 * Scheduler.Model
@@ -26,7 +35,7 @@ If you're running Visual Studio, ensure the Scheduler.API project is set as your
 
 **Note:** Take a note of the address IISExpress uses to host the API project.  You will need this for the next section.
 
-### Run the SPA
+### 3. Run the SPA
 There is another folder called Scheduler.SPA, which houses an app written in Angular 2.0 and TypeScript
 
 Go to the file ``` shared\utils\config.service.ts ``` and update the following line:
