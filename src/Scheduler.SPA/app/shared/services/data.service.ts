@@ -13,7 +13,7 @@ import { ConfigService } from '../utils/config.service';
 @Injectable()
 export class DataService {
  
-    _baseUrl: string = '';
+    _baseUrl: string = 'http://localhost:26372/api/';
  
     constructor(private http: Http,
         private itemsService: ItemsService,

@@ -27,7 +27,7 @@ namespace Scheduler.API.ViewModels
         {
             var validator = new ScheduleViewModelValidator();
             var result = validator.Validate(this);
-            return result.Errors.Select(item => new ValidationResult(item.ErrorMessage, new string[] { item.PropertyName }));
+            return result.Errors.Select(item => new ValidationResult(item.ErrorMessage, new[] { item.PropertyName }));
         }
     }
 }
