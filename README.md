@@ -41,7 +41,7 @@ If you're running Visual Studio, ensure the Scheduler.API project is set as your
 #### Option 2: Running in Kestrel
 Open a command prompt in the Scheduler.API folder and enter the following
 ```
-dotnet build
+dotnet restore
 dotnet run
 ```
 
