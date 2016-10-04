@@ -61,7 +61,7 @@ npm run lite
 Navigate to ``` http://localhost:3000 ``` and enjoy!
 
 ## Roadmap
-* Get Kestrel working
+* ~~Get Kestrel working~~
 * Use NMockaroo to build mock domain objects
 * Build and run on Visual Studio Online
 * Host on Azure
