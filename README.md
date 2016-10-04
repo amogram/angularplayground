@@ -31,11 +31,19 @@ There are two folders in the project. One folder consists of a Visual Studio Sol
 * Scheduler.Model
 * Scheduler.API
 
-These projects can be opened and built in Visual Studio by opening Scheduler.sln in src\Scheduler\
+These projects can be opened and built in Visual Studio by opening Scheduler.sln in src\Scheduler. You can also run the API using one of the following options:
 
+#### Option 1: Running in IIS Express
 If you're running Visual Studio, ensure the Scheduler.API project is set as your startup project, and run.
 
 **Note:** Take a note of the address IISExpress uses to host the API project.  You will need this for the next section.
+
+#### Option 2: Running in Kestrel
+Open a command prompt in the Scheduler.API folder and enter the following
+```
+dotnet build
+dotnet run
+```
 
 ### 3. Run the SPA
 There is another folder called Scheduler.SPA, which houses an app written in Angular 2.0 and TypeScript
