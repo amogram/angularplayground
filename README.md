@@ -55,6 +55,14 @@ this._apiURI = 'http://localhost:26372/api/';
 ```
 to whatever the url of the API is on your machine. 
 
+Repeat the process for ``` shared\services\data.service.ts ```
+
+```
+_baseUrl: string = 'http://localhost:26372/api/';
+```
+
+After any changes to your TypeScript files, transpile by hitting [CTRL]+[SHIFT]+[B]
+
 To build Scheduler.SPA, run the following commands:
 ```
 npm install
