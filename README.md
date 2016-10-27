@@ -4,6 +4,8 @@ A playground to try out Angular 2.0, ASP.NET Core and Entity Framework Core. Thi
 * [https://chsakell.com/2016/06/23/rest-apis-using-asp-net-core-and-entity-framework-core/](https://chsakell.com/2016/06/23/rest-apis-using-asp-net-core-and-entity-framework-core/)
 * [https://chsakell.com/2016/06/27/angular-2-crud-modals-animations-pagination-datetimepicker/](https://chsakell.com/2016/06/27/angular-2-crud-modals-animations-pagination-datetimepicker/)
 
+I'm now working through the Angular 2 Book to get my head around Angular. You can see more about the book [here](https://www.ng-book.com/2/?utm_source=Gumroad+Customers&utm_campaign=7d9153a8fe-ng_book_2_r42_update_email&utm_medium=email&utm_term=0_90f81615bc-7d9153a8fe-96949213&goal=0_90f81615bc-7d9153a8fe-96949213). Check out the branch ng-book to see my progress.
+
 ## Prerequisites
 * Visual Studio 2015 with Update 3 (Community will be fine) OR
 * A text editor with OmniSharp installed (eg. VS Code, or Atom)
